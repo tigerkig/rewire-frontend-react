@@ -1,0 +1,102 @@
+.alert-section {
+     width: 100%;
+     min-height: 57px;
+     display: flex;
+     align-items: center;
+     border-radius: 11px;
+     padding: 18px 60px 18px 18px;
+     position: relative;
+}
+
+.alert-section svg {
+     position: absolute;
+     right: 19px;
+     font-size: 25px;
+     cursor: pointer;
+}
+
+.alert-section p {
+     font-size: 13px;
+     line-height: 19px;
+     letter-spacing: 0.46px;
+     font-family: Roboto, Medium;
+}
+
+.black {
+     color: #170049;
+}
+
+.white {
+     color: #ffffff;
+}
+
+.modalClose {
+     display: none;
+     transition: 1s;
+}
+
+.alert-info {
+     height: 67px;
+     width: 100%;
+     background: #def8fe;
+     display: flex;
+     align-items: center;
+     padding: 0 16px;
+}
+
+.alert-info p {
+     font-size: 14px;
+     line-height: 19px;
+     letter-spacing: 0.39px;
+     font-family: Roboto, Regular;
+}
+
+.dismiss {
+     border-radius: 15px;
+     width: 120px;
+     min-width: 100px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #1bd0fe;
+}
+
+@media only screen and (max-width: 1150px) {
+     .alert-info {
+          display : block;
+          height: 100px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+     }
+     .cashCardMethodP{
+          display: flex;
+          justify-content: right;
+     }
+     .dismiss{
+          margin-top: 10px;
+     }
+}
+
+@media only screen and (max-width: 937px) {
+     .alert-info {
+          display : block;
+          height: 120px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+     }
+     .cashCardMethodP{
+          display: flex;
+          justify-content: right;
+     }
+     .dismiss{
+          margin-top: 10px;
+     }
+}
+
+@media only screen and (max-width: 700px) {
+     .alert-info {
+          display : flex;
+          height: 90px;
+     }
+}

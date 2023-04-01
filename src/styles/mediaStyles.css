@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1200px) {
+    .signPageLeft {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .signRight{
+        width: 100% !important;
+    }
+
+    .loginForm{
+        width: 50%;
+    }
+
+    .signRight .form-container{
+        width: 90%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    .signPageLeft {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .signRight{
+        width: 100% !important;
+    }
+    .loginForm{
+        width: 100%;
+    }
+    .signRight .form-container{
+        padding: 28px 16px 100px 16px !important;
+        height: auto;
+        max-height: 90%;
+        position: relative;
+        width: 80%;
+        align-items: left;
+        
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .signPageLeft {
+        display: none;
+    }
+    .register-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .loginForm{
+        width: 100% !important;
+    }
+    .signRight{
+        width: 80% !important;
+    }
+
+    .signRight .form-container{
+        padding: 28px 16px 100px 16px !important;
+        height: auto;
+        max-height: 90%;
+        position: relative;
+        width: 80%;
+        align-items: left; 
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .login__container{
+        background-image: none;
+    }
+    .signFormContent{
+        position: relative;
+    }
+    .signformFooter{
+        position: fixed !important;
+        bottom: 0px;
+        right: 0px;
+    }
+    .signPageLeft {
+        display: none;
+    }
+  
+    .mobileHeaderCard{
+        display: block !important;
+        width: 100%;
+        height: 133px;
+        background-image: url('../assets/images/BG_desktop.png');
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 28px 73px 42px 73px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    .mobileHeaderLogo{
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .mobileHeaderLogo .logoImg{
+        max-width: 214px;
+        
+    }
+  
+    .signRight{
+        width: 100% !important;
+        position: absolute;
+        top: 133px;
+        right: 0px;
+        height: calc(100vh - 133px) !important;
+
+    }
+
+    .signRight .form-container{
+        padding: 28px 30px 100px 30px !important;
+        max-height: 100% !important;
+        height: 100vh !important;
+        position: relative;
+        width: 100vw !important;
+        align-items: left; 
+        border-radius: 11px 11px 0px 0px !important;
+    }
+    .signForm {
+        position: absolute;
+        right: 30px;
+        left: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    .signRight .form-container{
+        padding: 28px 16px 100px 16px !important;
+        height: 100vh !important;
+        position: relative;
+        width: 100vw !important;
+        align-items: left; 
+    }
+    .signForm {
+        position: absolute;
+        right: 16px;
+        left: 16px;
+    }
+  }

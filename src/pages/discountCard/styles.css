@@ -1,0 +1,93 @@
+.discountCardForm{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.discountCardSub{
+    padding-top: 51px;
+}
+.discountCardSub p{
+    color : #0a0540;
+    font-size: 33px;
+    font-family: Poppins, Medium;
+    letter-spacing: 1.16px;
+    font-weight: 600;
+}
+.discountCardDesc {
+    max-width: 100%;
+    padding-top: 96.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discountCardDesc .descTxt{
+    padding: 0px 20px 0px 20px;
+    max-width: 595px;
+}
+.discountCardDesc .descTxt p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #6d6b89;
+    letter-spacing: 0.56;
+    line-height: 27px;
+}
+.discountCardDesc .descTxt span{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #6d6b89;
+    letter-spacing: 0.56;
+    font-weight: 600;
+    line-height: 27px;
+}
+.discountCard{
+    padding-top: 73px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.discountCard .discountCardImg {
+    max-width: 376px;
+}
+.discountBtn{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.discountBtn button{
+    border-radius: 0px !important;
+}
+
+.howCashCard_closeBtn{
+    width: 19px;
+    height: 19px;
+    right: 20px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .discountCard img{
+        width: 271px;
+    }
+    .discountCardSub {
+        max-width: 100%;
+        padding-top: 29px 50px 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .discountCardTxt {
+        width: 261px;
+    }
+    .discountCardTxt p {
+        font-size: 18px;
+    }
+    .discountCardDesc {
+        padding-top: 23px;
+    }
+    .discountCard {
+        padding-top: 33px;
+    }
+
+}
+

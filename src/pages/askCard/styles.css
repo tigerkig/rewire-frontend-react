@@ -1,0 +1,52 @@
+.receiveCardAddress{
+    margin-bottom: 20px;
+    color: #0e0243;
+    font-size: 14px;
+    letter-spacing: 0.49px;
+    font-family: sans-serif;
+}
+.postalCode_locality{
+    display: flex;
+}
+.postalCode_locality .postalCode{
+    width: 33%;
+    margin-right: 12px;
+}
+.postalCode_locality .locality{
+    width: 67%;
+}
+.dateOption{
+    position: relative;
+}
+.datePicon{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+.askCardBtn{
+    width: 100%;
+}
+.askCardBtn .submitBtn {
+    border-radius: 0px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 0.56px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.signFormContent .dateOption #selectTime {
+    padding: 0px 10px 0px 10px !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .askCardBtn .submitBtn {
+        height: 40px !important;
+        font-size: 16px !important;
+        letter-spacing: 0.56px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+}

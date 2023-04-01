@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+    --primary: #1bd0fe;
+    --primary-disable: #82f0f88c;
+    --primary-hover: #5cd9e2;
+    --secondary: #4D5154;
+    --secondary-light: #7E7E7E;
+    --grays: rgb(187, 187, 187);
+    --light: #F6F6F6;
+    --placeholder: #8B9EB0;
+    --pure: #fff;
+    --dark: #0d0106;
+    --active: #E4C9C9;
+    --dark-primary: #111111;
+    --dark-secondary: #1D1D1D;
+}
+
+.T-component {
+    font-family: sans-serif;
+    background-color: #f3f2f4;
+}

@@ -1,0 +1,69 @@
+.askCardForm {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.askCardResult {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 61px;
+}
+.askCardResultImg{
+    width: 69px;
+    height: auto;
+}
+.askCardSub{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 24px 0px 24px;
+}
+.askCardTxt{
+   max-width: 595px;
+}
+.askCardTxt p {
+    color : #0a0540;
+    font-size: 33px;
+    font-family: Poppins, Medium;
+    letter-spacing: 1.16px;
+    font-weight: 600;
+}
+.askCardDesc {
+    padding-top: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.askCardDesc .descTxt {
+    max-width: 595px;
+    color: #7e8494;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.12px;
+    font-family: sans-serif;
+}
+.askCardComplete{
+    padding-top: 120px;
+}
+.askCardComplete p{
+    color : #660099;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 0.93px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .askCardTxt p {
+        color : #0a0540;
+        font-size: 20px;
+        font-family: Poppins, Medium;
+        letter-spacing: 1.16px;
+        font-weight: 600;
+    }
+} 

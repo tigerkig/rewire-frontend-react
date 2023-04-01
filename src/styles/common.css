@@ -1,0 +1,32 @@
+.common-container{
+    margin-left: 320px;
+}
+.common{
+    width: 95%;
+    
+}
+@media (max-width: 1250px){
+    .common-container{
+        margin-left: 290px;
+    }
+}
+@media (max-width: 1050px){
+    .common-wrapper  .common-left{
+        display: none;
+    }
+    .common-container{
+        width: 100%;
+        margin-left: 0;
+        padding: 1rem 2rem ;
+    }
+    .common{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 500px){
+    .common-container{
+        padding: 5px 0px ;
+    }
+}
